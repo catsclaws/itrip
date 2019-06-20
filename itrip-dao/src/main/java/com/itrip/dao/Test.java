@@ -17,5 +17,6 @@ public class Test {
         List<User> users = bean.getUserListByMap(params);
 
         System.out.println(users.size());
+
     }
 }

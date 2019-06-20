@@ -22,4 +22,9 @@
 			and userName=#{userName}
 		</if>
 	</select>
+
+	<select id="getUserByUserCode" resultType="com.itrip.pojo.User" parameterType="java.lang.String">
+		select * from smbms_user
+		where userCode = #{userCode}
+	</select>
 </mapper>

@@ -21,7 +21,7 @@
     <properties>
         <spring.version>4.1.7.RELEASE</spring.version>
         <mybatis.version>3.2.2</mybatis.version>
-        <jackson.verson>2.8.7</jackson.verson>
+        <jackson.verson>2.12.6.1</jackson.verson>
     </properties>
 
     <dependencies>
